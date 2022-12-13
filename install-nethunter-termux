@@ -68,9 +68,9 @@ function set_strings() {
     ####
     if [[ ${SYS_ARCH} == "arm64" ]];
     then
-        echo "[1] full"
-        echo "[2] minimal"
-        echo "[3] nano"
+        echo "[1] NetHunter ARM64 (full)"
+        echo "[2] NetHunter ARM64 (minimal)"
+        echo "[3] NetHunter ARM64 (nano)"
         read -p "Enter the image you want to install: " wimg
         if (( $wimg == "1" ));
         then
@@ -86,8 +86,8 @@ function set_strings() {
         fi
     elif [[ ${SYS_ARCH} == "armhf" ]];
     then
-        echo "[1] minimal"
-        echo "[2] nano"
+        echo "[1] NetHunter ARMhf (minimal)"
+        echo "[2] NetHunter ARMhf (nano)"
         read -p "Enter the image you want to install: " wimg
         if (( $wimg == "1" ));
         then
