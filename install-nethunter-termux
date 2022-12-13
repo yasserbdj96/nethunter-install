@@ -64,6 +64,7 @@ function get_arch() {
 
 function set_strings() {
     echo \
+    && echo "" 
     ####
     if [[ ${SYS_ARCH} == "arm64" ]];
     then
