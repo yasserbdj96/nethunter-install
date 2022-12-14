@@ -12,6 +12,6 @@ termux-setup-storage && pkg install wget && wget -O install.sh https://raw.githu
 
 <div align="center">
     <a href="https://raw.githubusercontent.com/yasserbdj96/nethunter_install/main/screenshot/screenshot.png">
-        <img alt="yasserbdj96" height="100" src="https://raw.githubusercontent.com/yasserbdj96/nethunter_install/main/screenshot/screenshot.png">
+        <img alt="yasserbdj96" height="400" src="https://raw.githubusercontent.com/yasserbdj96/nethunter_install/main/screenshot/screenshot.png">
     </a>
 </div>
